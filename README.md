@@ -32,7 +32,7 @@ gitHubのcommit履歴を見ることで確認可能
 https://github.com/paulmillr/chokidar
 
 ↓github
-
+<img width="1277" alt="githubスター数" src="https://user-images.githubusercontent.com/54488985/101721487-6f105900-3aeb-11eb-96cf-26ef3d4c9fec.png">
 
 
 # (補足)OSSライセンス
