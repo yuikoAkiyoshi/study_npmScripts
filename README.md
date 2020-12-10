@@ -18,6 +18,7 @@ npmの公式ページのモジュール詳細ページで確認可能
 npmの公式ページのモジュール詳細ページで確認可能
 
 ↓公式ページ
+<img width="1238" alt="npmjscom" src="https://user-images.githubusercontent.com/54488985/101721548-8ea78180-3aeb-11eb-8085-476e779c8527.png">
 
 ## GitHubのスター数
 スター数が多い方が良い
