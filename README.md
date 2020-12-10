@@ -1,4 +1,4 @@
-# 指標
+# ▼指標
 npmモジュールを選定する際に参考にすると良い指標は以下の通り
 
 ## DL数
@@ -36,7 +36,7 @@ https://github.com/paulmillr/chokidar
 <img width="1277" alt="githubスター数" src="https://user-images.githubusercontent.com/54488985/101721487-6f105900-3aeb-11eb-96cf-26ef3d4c9fec.png">
 
 
-# (補足)OSSライセンス
+# ▼(補足)OSSライセンス
 OSS・・・open source software
 だれでも複製・配布・改良できるソフトウェアのこと
 ただし、複製・配布・改良の範囲は「OSSライセンス」によって制限されている
@@ -53,13 +53,15 @@ OSS・・・open source software
   - 代表的なものにUniversity of California, Berkele（UC Berkeley）が作成したBSD Licenseがある
 
 
+<img width="712" alt="OSSライセンス種類" src="https://user-images.githubusercontent.com/54488985/101721610-b565b800-3aeb-11eb-8e1e-0a27addba8e2.png">
+
 
 よく使われているのはMIFなど
 (参考:https://www.sbbit.jp/article/cont1/34811)
 
 
 
-# 指標を確認するのに便利なwebサイト
+# ▼指標を確認するのに便利なwebサイト
 ## npm trends
 https://www.npmtrends.com/
 
@@ -69,7 +71,7 @@ https://www.npmtrends.com/
 また、類似のモジュールを見つけるのにも役立つ。
 
 
-# 目当てのモジュールの見つけ方（例）
+# ▼目当てのモジュールの見つけ方（例）
 「npmのライセンスを確認できるモジュールがあったら使いたいな〜」と思い立つ
 google検索で『npm ライセンス モジュール』と検索
 一番上に出てきた記事で『grunt-license-report』というモジュールを発見
