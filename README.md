@@ -64,25 +64,25 @@ OSS・・・open source software
 # ▼指標を確認するのに便利なwebサイト
 ## npm trends
 https://www.npmtrends.com/
-
-ダウンロード数を時系列でグラフで可視化してくれる。githubスターや最終更新日、作成日などの確認もできる。
-複数のモジュールを一度に比較することができるのが便利。
-
-また、類似のモジュールを見つけるのにも役立つ。
+  
+ダウンロード数を時系列でグラフで可視化してくれる。githubスターや最終更新日、作成日などの確認もできる。  
+複数のモジュールを一度に比較することができるのが便利。  
+  
+また、類似のモジュールを見つけるのにも役立つ。  
 
 
 # ▼目当てのモジュールの見つけ方（例）
-「npmのライセンスを確認できるモジュールがあったら使いたいな〜」と思い立つ
-google検索で『npm ライセンス モジュール』と検索
-一番上に出てきた記事で『grunt-license-report』というモジュールを発見
+「npmのライセンスを確認できるモジュールがあったら使いたいな〜」と思い立つ  
+google検索で『npm ライセンス モジュール』と検索  
+一番上に出てきた記事で『grunt-license-report』というモジュールを発見  
 
-npm trendsで 『grunt-license-report』を検索実行
-おすすめのところに色々出てくるので全て追加していく（今回追加したのは「grunt-license-finder」「license-checker」「check-license」「license-check」）
-圧倒的にlicense-checkerがダウンロードされていることがわかる
+npm trendsで 『grunt-license-report』を検索実行  
+おすすめのところに色々出てくるので全て追加していく（今回追加したのは「grunt-license-finder」「license-checker」「check-license」「license-check」）  
+圧倒的にlicense-checkerがダウンロードされていることがわかる  
 ![圧倒的license-checker](https://user-images.githubusercontent.com/54488985/101721727-fa89ea00-3aeb-11eb-9554-4f50d5bd5ce0.png)
-スター数、最新更新日を見ても申し分ない感じ
-
-npm公式ページに飛んでlicense-checkerを調べる
-バージョンも25で良い感じ
-
-これに決定！！
+スター数、最新更新日を見ても申し分ない感じ  
+  
+npm公式ページに飛んでlicense-checkerを調べる  
+バージョンも25で良い感じ  
+  
+これに決定！！  
