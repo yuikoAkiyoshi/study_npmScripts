@@ -2,46 +2,46 @@
 npmモジュールを選定する際に参考にすると良い指標は以下の通り
 
 ## DL数
-多い方が良い。
-npmの公式ページのモジュール詳細ページで確認可能
-（↓npm公式ページ）
+多い方が良い。  
+npmの公式ページのモジュール詳細ページで確認可能  
+（↓npm公式ページ）  
 https://www.npmjs.com/
-（↓モジュール詳細ページ　例：chokidar）
+（↓モジュール詳細ページ　例：chokidar）  
 https://www.npmjs.com/package/chokidar
-
+  
 ## バージョンは1以上か
-1以上の方がバグが少ないので1以上の方が良い。
-npmの公式ページのモジュール詳細ページで確認可能
-
+1以上の方がバグが少ないので1以上の方が良い。  
+npmの公式ページのモジュール詳細ページで確認可能  
+  
 ## OSSライセンス
-組み込んだソースコードを配布する予定のある人などは要確認。
-npmの公式ページのモジュール詳細ページで確認可能
-
-↓公式ページ
+組み込んだソースコードを配布する予定のある人などは要確認。  
+npmの公式ページのモジュール詳細ページで確認可能  
+  
+↓公式ページ  
 <img width="1238" alt="npmjscom" src="https://user-images.githubusercontent.com/54488985/101721548-8ea78180-3aeb-11eb-8085-476e779c8527.png">
 
 ## GitHubのスター数
-スター数が多い方が良い。
-gitHubリポジトリはnpm公式ページのモジュール詳細ページで確認可能
-(例：chokidar)
+スター数が多い方が良い。  
+gitHubリポジトリはnpm公式ページのモジュール詳細ページで確認可能  
+(例：chokidar)  
 https://github.com/paulmillr/chokidar
-スター数はgitHubページの右上で確認可能
-
+スター数はgitHubページの右上で確認可能  
+  
 ## メンテされているか
-最終更新日が最近の方が良い。
-gitHubのcommit履歴を見ることで確認可能
+最終更新日が最近の方が良い。  
+gitHubのcommit履歴を見ることで確認可能  
 https://github.com/paulmillr/chokidar
-
-↓github
+  
+↓github  
 <img width="1277" alt="githubスター数" src="https://user-images.githubusercontent.com/54488985/101721487-6f105900-3aeb-11eb-96cf-26ef3d4c9fec.png">
 
 
 # ▼(補足)OSSライセンス
-OSS・・・open source software
-だれでも複製・配布・改良できるソフトウェアのこと。
-ただし、複製・配布・改良の範囲は「OSSライセンス」によって制限されている。
-ライセンスの種類は大きく分けて３つある。
-
+OSS・・・open source software  
+だれでも複製・配布・改良できるソフトウェアのこと。  
+ただし、複製・配布・改良の範囲は「OSSライセンス」によって制限されている。  
+ライセンスの種類は大きく分けて３つある。  
+  
 - コピーレフト
   - 複製・再頒布可能、改変可能、改変部分のソース公開が必要、他のコードと組み合わせた場合他のコードのソース公開が必要
   - 代表的なものにFree Software Foundation（FSF）によって作成されたGNU General Public License（GPL)がある
@@ -51,14 +51,14 @@ OSS・・・open source software
 - 非コピーレフト
   - 複製・再頒布可能、改変可能、改変部分のソース公開は**不要**、他のコードと組み合わせた場合他のコードのソース公開は**不要**
   - 代表的なものにUniversity of California, Berkele（UC Berkeley）が作成したBSD Licenseがある
-
-
+  
+  
 <img width="712" alt="OSSライセンス種類" src="https://user-images.githubusercontent.com/54488985/101721610-b565b800-3aeb-11eb-8e1e-0a27addba8e2.png">
-
-
+  
+  
 よく使われているのはMIFなど
 (参考:https://www.sbbit.jp/article/cont1/34811)
-
+  
 
 
 # ▼指標を確認するのに便利なwebサイト
