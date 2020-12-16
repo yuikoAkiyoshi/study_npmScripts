@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "comment1": "scssをcssに変換、圧縮",
+    "scss2css": "node-sass src/assets/scss/*.scss -o public/assets/css --output-style compressed",
+    "comment2": "cssにprefixつける",
+    "cssAddPrefix": "postcss --use autoprefixer --no-map --replace \"public/assets/css/style.css\" ",
+    "comment3": "src/htmlをpublic配下にコピー＆ペースト。コピー元にないファイルは削除",
+    "copyHtml": "cpx \"src/*.html\" \"public/\" -C",
+    "comment5": "変更が起きたら記載のnpm scriptsを自動で実行する",
+    "watch:css": "watch 'run-s scss2css' ./src/assets/scss",
+    "watch:html": "watch 'run-s copyHtml' ./src/",
+    "comment6": "サーバーを立ち上げる",
+    "server": "browser-sync start --server ./public/",
+    "comment7": "サーバーを立ち上げつつ、scssファイルの変更を監視",
+    "dev": "concurrently \"yarn run watch:*\" \"yarn run server\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "browser-sync": "^2.26.13",
+    "concurrently": "^5.3.0",
+    "cpx": "^1.5.0",
+    "node-sass": "^5.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^8.3.1",
+    "watch": "^1.0.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie < 10",
+    "Android >= 4",
+    "iOS >= 9"
+  ]
+}
