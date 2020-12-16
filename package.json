@@ -15,8 +15,8 @@
     "watch:html": "watch 'run-s copyHtml' ./src/",
     "comment6": "サーバーを立ち上げる",
     "server": "browser-sync start --server ./public/",
-    "comment7": "サーバーを立ち上げつつ、scssファイルの変更を監視",
-    "dev": "concurrently \"yarn run watch:*\" \"yarn run server\" "
+    "comment7": "サーバーを立ち上げつつ、htmlとscssファイルの変更を監視",
+    "dev": "concurrently \"npm run watch:*\" \"npm run server\" "
   },
   "author": "",
   "license": "ISC",
