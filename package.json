@@ -7,7 +7,7 @@
     "comment1": "scssをcssに変換、圧縮",
     "scss2css": "node-sass src/assets/scss/*.scss -o public/assets/css --output-style compressed",
     "comment2": "cssにprefixつける",
-    "cssAddPrefix": "postcss --use autoprefixer --no-map --replace \"public/assets/css/style.css\" ",
+    "cssAddPrefix": "postcss public/assets/css/*.css --use autoprefixer --no-map --replace",
     "comment3": "src/htmlをpublic配下にコピー＆ペースト。コピー元にないファイルは削除",
     "copyHtml": "cpx \"src/*.html\" \"public/\" -C",
     "comment5": "変更が起きたら記載のnpm scriptsを自動で実行する",
@@ -27,6 +27,7 @@
     "cpx": "^1.5.0",
     "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.1",
     "postcss-cli": "^8.3.1",
     "watch": "^1.0.2"
   },
