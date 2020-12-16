@@ -14,11 +14,13 @@
     "imagemin": "node imagemin.js",
     "comment5": "変更が起きたら記載のnpm scriptsを自動で実行する",
     "watch:css": "watch 'run-s scss2css cssAddPrefix' ./src/assets/scss",
-    "watch:other": "watch 'run-s copy imagemin' ./src/",
+    "watch:other": "watch 'npm run copy' ./src/",
     "comment6": "サーバーを立ち上げる",
     "server": "browser-sync start --server ./public/",
-    "comment7": "サーバーを立ち上げつつ、scssファイルが変更されたら都度cssに変換、他ファイルは変更の都度publicへコピー、imgは変更の都度圧縮",
-    "dev": "concurrently \"npm run watch:*\" \"npm run server\" "
+    "comment7": "サーバーを立ち上げつつ、scssファイルが変更されたら都度cssに変換、他ファイルは変更の都度publicへコピー",
+    "dev": "run-p watch:* server",
+    "comment8": "scssをcssに変換、他ファイルpublicへコピー、img圧縮",
+    "build": "run-s scss2css cssAddPrefix copy imagemin server"
   },
   "author": "",
   "license": "ISC",
