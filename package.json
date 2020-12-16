@@ -11,7 +11,7 @@
     "comment3": "src/htmlをpublic配下にコピー＆ペースト。コピー元にないファイルは削除",
     "copyHtml": "cpx \"src/*.html\" \"public/\" -C",
     "comment5": "変更が起きたら記載のnpm scriptsを自動で実行する",
-    "watch:css": "watch 'run-s scss2css' ./src/assets/scss",
+    "watch:css": "watch 'run-s scss2css cssAddPrefix' ./src/assets/scss",
     "watch:html": "watch 'run-s copyHtml' ./src/",
     "comment6": "サーバーを立ち上げる",
     "server": "browser-sync start --server ./public/",
