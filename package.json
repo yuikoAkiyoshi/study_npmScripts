@@ -16,11 +16,11 @@
     "watch:css": "watch 'run-s scss2css cssAddPrefix' ./src/assets/scss",
     "watch:other": "watch 'npm run copy' ./src/",
     "comment6": "サーバーを立ち上げる",
-    "server": "browser-sync start --server ./public/",
+    "server": "browser-sync start --server ./public/ --config bs-config.js",
     "comment7": "サーバーを立ち上げつつ、scssファイルが変更されたら都度cssに変換、他ファイルは変更の都度publicへコピー",
     "dev": "run-p watch:* server",
     "comment8": "scssをcssに変換、他ファイルpublicへコピー、img圧縮",
-    "build": "run-s scss2css cssAddPrefix copy imagemin server"
+    "build": "run-s scss2css cssAddPrefix copy imagemin"
   },
   "author": "",
   "license": "ISC",
